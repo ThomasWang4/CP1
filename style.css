@@ -1,0 +1,158 @@
+/* Estilos para o cabeçalho e a navegação */
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+/* quartos */
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Define uma fonte mais rústica para todo o texto */
+body {
+  font-family: "Georgia", serif;
+}
+
+/* Define uma cor de fundo bege para a página */
+body {
+  background-color: #f5deb3;
+}
+
+/* Adiciona uma borda para as imagens */
+img {
+  border: 2px solid #8b4513;
+}
+
+/* Adiciona uma borda para as tabelas */
+table {
+  border: 2px solid #8b4513;
+  border-collapse: collapse;
+}
+
+/* Define uma cor de fundo para os cabeçalhos das tabelas */
+th {
+  background-color: #8b4513;
+  color: #fff;
+}
+
+/* Define um estilo para os links */
+a {
+  color: #8b4513;
+  text-decoration: none;
+  border-bottom: 2px solid #8b4513;
+}
+
+/* Define um estilo para os botões */
+button {
+  background-color: #8b4513;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Define um estilo para os títulos */
+h1, h2, h3 {
+  font-family: "Georgia", serif;
+  color: #8b4513;
+}
+
+/* Define um estilo para os parágrafos destacados */
+p.destaque {
+  background-color: #f5deb3;
+  border: 2px solid #8b4513;
+  padding: 16px;
+  font-style: italic;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
